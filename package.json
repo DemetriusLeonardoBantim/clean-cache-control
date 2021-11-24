@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test":"jest --no-cache --watchAll"
+    "test": "jest --no-cache --watchAll"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.9",
     "jest": "^27.3.1",
